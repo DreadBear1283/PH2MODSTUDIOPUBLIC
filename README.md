@@ -40,9 +40,8 @@ PH2 Mod Studio is a desktop app for making mods for **Perfect Heist 2**. Drag bl
 
 ## Install
 
-1. Open the **[latest release](../../releases/latest)** and download `PH2-Mod-Studio-Setup-<version>.exe`.
-2. Run it. Windows may show a blue **"Windows protected your PC"** box, because the app is not signed with a paid certificate. Click **More info**, then **Run anyway**.
-   **If Windows blocks it with no "Run anyway" button, turn off Smart App Control** (see the first question below), then run the installer again.
+1. Open the **[latest release](../../releases/latest)** and download `PH2 Mod Studio Setup ... .exe`.
+2. Run it. Windows may show a blue **"Windows protected your PC"** box, because the app is not signed with a paid certificate yet. Click **More info**, then **Run anyway**. (If Windows blocks it with no such button, see the questions at the bottom.)
 3. Open **PH2 Mod Studio** from the Start menu.
 
 You never need to download updates by hand. See below.
@@ -79,15 +78,9 @@ Testing features (money, ammunition and the Gameplay Lab) are for trying things 
 
 ## Questions
 
-**Windows blocks it, or says "An Application Control policy has blocked this file."** That is Windows 11's *Smart App Control*. It blocks apps that are not signed with a paid certificate, and it has no "Run anyway" button. This app is free and unsigned, so **turn Smart App Control off** and run the installer again:
+**Windows says the app is unsafe.** It is unsigned for now, and the warning appears for every unsigned app. Use **More info → Run anyway**.
 
-1. Open **Windows Security**.
-2. Go to **App & browser control**, then **Smart App Control settings**.
-3. Choose **Off**.
-
-On some versions of Windows you can turn it back on later, and on older ones you cannot, so only do this if you are comfortable with that.
-
-**Windows says the app is unsafe (a blue "Windows protected your PC" box).** This is a different warning, and the same reason: the app is not signed. Click **More info**, then **Run anyway**.
+**Windows says "An Application Control policy has blocked this file."** Windows 11's *Smart App Control* blocks unsigned apps it does not recognise, and it has no "Run anyway" button. Turn it off in **Windows Security → App & browser control → Smart App Control settings**. Note that Windows only lets you turn it back on by reinstalling Windows, so only do this if you are comfortable with that. A signed version that avoids this is planned.
 
 **Will updating delete my mods?** No. Mods live in your Documents folder, separate from the app.
 
