@@ -68,7 +68,7 @@ The game does not publish a mod API, so everything is labelled by how sure the a
 - **Experimental**: found in the game's files or in a working mod, but not tested here. Try it in the game before relying on it.
 - **Unknown / Unsupported**: not found, so the app does not pretend it works.
 
-Features for trying things in your own private game are marked **TEMPORARY - TESTING ONLY** and are blocked when you export in **Release** mode. This tool is not for cheating against other players, and it has no aimbots, hidden-information tricks or anti-cheat workarounds.
+Testing features (money, ammunition and the Gameplay Lab) are for trying things in your own private game, and are blocked when you export in **Release** mode. This tool is not for cheating against other players, and it has no aimbots, hidden-information tricks or anti-cheat workarounds.
 
 ## Privacy
 
